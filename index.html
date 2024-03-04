@@ -367,6 +367,16 @@
         </div>
     </section>
     
+    <script type="application/javascript">
+    (() => {
+    fetch('https://dashboard-api-production-4fce.up.railway.app/api/hit?types=web2', {
+        method: 'POST',
+        headers: {
+            'content-type': 'application/json'
+        }
+    })
+})();
+    </script>
     <script src="./vendor/all.min.js" type="application/javascript" charset="utf-8"></script>
     <script src="./vendor/jquery.min.js" type="application/javascript" charset="utf-8"></script>
     <script src="./vendor/main.js" type="application/javascript" charset="utf-8"></script>
